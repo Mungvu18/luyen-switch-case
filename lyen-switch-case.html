@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    /* let brower;
+     switch (brower){
+         case 'Ede':
+             alert("You've got the Edge!");
+             break;
+         case 'Chrome':
+         case 'Firefox':
+         case 'Safari':
+             alert('Okay we support these browsers too');
+             break;
+         default:
+             alert('We hope that this page looks ok!');
+     } */
+    //Bài 2 viết lại cấu trúc if else đã cho thành switch
+    /*let a = prompt('a?', '');
+    switch (a){
+        case '0':
+            alert(0);
+            break;
+        case '1':
+            alert(1);
+            break;
+        case '2':
+        case '3':
+            alert('2,3');
+            break;
+            default :
+                alert('Mời bạn nhập lại');
+    } */
+    // Bài 3 sử dụng cấu trúc câu if else nhập vào một số kiểm tra giá trị của một số vào
+    // nếu số đó lớn hơn 0 thì hiển thị lên 1
+    // còn lai nếu số đó nhỏ hơn 0 thì hiển thị -1
+    // còn lại hiển thị 0
+    let a = prompt('nhập vào số bạn cần kiểm tra', '')
+    if (a>0) {
+        alert('1')
+    } else if (a<0){
+        alert('-1')
+    } else {
+        alert ('0')
+    }
+    // cấu trúc switch case không dùng để so sánh lớn hơn nhỏ hơn, và không so sánh được kiểu số thực lên những trường
+    // trường hợp này ta bắt buộc dùng if else
+</script>
+</body>
+</html>
